@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Form</title>
+    </head>
+    <body>
+        <center><h1>Simple Form</h1></center>
+        <center>
+            <form name="custForm"></form>
+            User Name : <input type="text" required autofocus><br><br>
+            Password : <input type="password" pattern="[A-Z]"><br><br>
+            Email : <input type="email" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>
+            Gender :  <input type="radio" id="male" name="gender" value="Male">
+              <label for="html">Male</label>
+              <input type="radio" id="female" name="gender" value="Female">
+              <label for="demale">Female</label><br><br>
+            Age (Yrs) : <input type="number" required><br><br>
+            Address : <textarea id="textarea" rows="2" cols="15"></textarea><br><br>
+            Company Website : <input type="url" id="url"><br><br>
+            Choose Country : <input list="streams" name="stream" id="stream">
+            <datalist id="streams">
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>China</option>
+            </datalist><br><br>
+            Date of Journey : <input type="date" id="date">
+        </center>
+    </body>
+</html>
