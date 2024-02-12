@@ -1,0 +1,14 @@
+Container Classes
+The first set of classes needed are the Container classes.
+
+In order to properly place the content in a webpage, Bootstrap needs a container element to wrap the page contents. This basically means that all content of a page should be inside a container class for the proper rendering of a webpage.
+
+Bootstrap provides two types of container classes:
+
+.container              : fixed width responsive container
+.container-fluid     : full width responsive container, utilizing the entire width of the browser/viewport ( webpage’s visible area )     
+
+Syntax:
+	<div class="container/container-fluid">
+		Enter text here
+	</div>
