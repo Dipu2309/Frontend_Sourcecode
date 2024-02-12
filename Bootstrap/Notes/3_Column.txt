@@ -1,0 +1,27 @@
+Column Classes
+To create a column in Bootstrap, .col-<sq>-<n> class needs to be used.
+
+Here <sq> is the size qualifier and <n> is the number of grids we want the column to occupy.
+
+ 
+
+Size qualifiers can be of four types:
+
+lg  (for large devices with screen width >= 1200px)
+
+md (for medium devices with screen width < 1200px and >=992px)
+
+sm (for small devices with screen width < 992px and >=768px)
+
+xs (for extra small devices with screen width < 768px)
+
+Number of grids in a column can range between 0 to 12. 
+
+
+Syntax:
+
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-<sq>-<n>">Enter text here</div>
+		</div>
+</div>
