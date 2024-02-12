@@ -1,1 +1,9 @@
-s
+In Bootstrap, each webpage can be divided into rows and column-grids, and each row has 12 column-grids.
+
+The syntax is as follows:
+
+<div class="container/container-fluid">
+	<div class="row">Enter text here</div>
+</div>
+
+If you give borders to .container, .container-fluid and .row, you will observe that the row occupies the entire width of the container i.e. whatever the width of the container is, that will be the width of the row.
