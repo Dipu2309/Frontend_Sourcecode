@@ -7,3 +7,7 @@
 
 **To implement routing in our application**
 npm install react-router-dom --save
+
+**Hyperlink**
+HTML hyperlink is a link, which is used to navigate from one webpage to another web page.
+
